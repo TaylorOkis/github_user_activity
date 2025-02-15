@@ -1,4 +1,3 @@
-````markdown
 # GitHub Activity Fetcher
 
 A command-line tool to fetch and display recent GitHub user activities.
@@ -29,7 +28,6 @@ Clone the repository and navigate into the project directory:
 git clone https://github.com/yourusername/github_user_activity.git
 cd github_user_activity
 ```
-````
 
 Ensure all project files (e.g., `github-activity.js` and `helper.js`) are in the same directory.
 
