@@ -1,5 +1,5 @@
-export default async function getActivity(username) {
-  const url = `https://api.github.com/users/${username}/events?per_page=10`;
+export default async function getActivity(username, number_of_activity) {
+  const url = `https://api.github.com/users/${username}/events?per_page=${number_of_activity}`;
   let options = {
     method: "GET",
   };
